@@ -1,0 +1,108 @@
+@font-face {
+	font-family: Museo slab;
+	src: url('font/Museo.otf');
+}
+
+		   body #infobubble #content {
+
+        font-size: 83%;
+
+      }
+ 
+     #infobubble #content {
+	color:white;
+	padding: 10px;
+	 }
+
+
+/* Add info bubble styles here */
+#infobubble #content #infoBubbleDataBody{
+	
+	 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+      
+#infoBubbleDataBody{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 16px;	 
+	
+}
+.infobubble-button-add {
+	margin-right: 5px;
+}
+
+      .phoney {
+
+        background: -webkit-gradient(linear,left top,left bottom,color-stop(0, rgb(112,112,112)),color-stop(0.51, rgb(94,94,94)),color-stop(0.52, rgb(57,57,57)));
+
+        background: -moz-linear-gradient(center top,rgb(112,112,112) 0%,rgb(94,94,94) 51%,rgb(57,57,57) 52%);
+
+      }
+
+
+
+
+      .phoneytext {
+		  
+		 font-family: 'Museo slab', sans-serif;
+
+        text-shadow: 0 -1px 0 #000;
+
+        color: #fff;
+
+        font-family: Helvetica Neue, Helvetica, arial;
+
+        font-size: 12px;
+
+        line-height: 16px;
+
+        padding: 4px 45px 4px 15px;
+
+        font-weight: bold;
+
+        background: url(../images/arrow.png) 95% 50% no-repeat;
+
+      }
+
+
+
+      .phoneytab {
+
+        text-shadow: 0 -1px 0 #000;
+
+        color: #fff;
+
+        font-family: Helvetica Neue, Helvetica, arial;
+
+        font-size: 18px;
+
+        background: rgb(112,112,112) !important;
+
+      }
+
+   #infobubble #content h1 {
+	font-family: 'Museo slab', sans-serif;
+	color: #FFF;
+	display: block;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #fff;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+ p {
+	 font-family: 'Museo slab', sans-serif;
+	 font-size: 12px;
+ }

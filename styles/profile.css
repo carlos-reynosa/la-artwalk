@@ -1,0 +1,424 @@
+#container {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+}
+@font-face {
+	font-family: Museo slab;
+	src: url('font/Museo.otf');
+}
+
+#galleryname  {
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+}
+.name {
+	font-size: 36px;
+	color: #FFF;
+	display: block;
+	width: 200px;
+	line-height: 38px;
+	font-family: 'Oswald', sans-serif;
+	margin-right: 50px;
+	text-transform:uppercase;
+}
+.details {
+	display: block;
+	width: 210px;
+	font-size: 11px;
+	line-height: 18px;
+	color: #FFF;
+	height: 150px;
+	margin-right: 15px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #9BB3BD;
+	padding-right: 15px;
+	font-family: 'Museo slab', sans-serif;
+}
+.details a {
+	color: #FFF;
+	text-decoration: none;
+}
+.details a:hover {
+	color: #00B3C0;
+	text-decoration: underline;
+}
+.add_btn {
+	margin-top: 10px;
+}
+#galleryname ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#galleryname ul li {
+	display: inline;
+	position: relative;
+	float: left;
+}
+.title01 {
+	background-image: url(../images/galleryhours.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 155px;
+	font-size: 12px;
+	color: #FFF;
+	display: block;
+	height: 25px;
+	padding-left: 35px;
+	padding-top: 10px;
+	font-family: 'Museo slab', sans-serif;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+.title_rate {
+	background-image: url(../images/rate2.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	font-size: 12px;
+	color: #084A74;
+	display: block;
+	height: 25px;
+	padding-top: 10px;
+	font-family: 'Museo slab', sans-serif;
+	padding-left: 40px;
+}
+.title_style {
+	background-image: url(../images/style.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	font-size: 12px;
+	color: #084A74;
+	display: block;
+	height: 25px;
+	padding-top: 10px;
+	font-family: 'Museo slab', sans-serif;
+	padding-left: 40px;
+	width: 170px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+}
+.title_quantity {
+	background-image: url(../images/quantity.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	font-size: 12px;
+	color: #084A74;
+	display: block;
+	height: 25px;
+	padding-top: 10px;
+	font-family: 'Museo slab', sans-serif;
+	padding-left: 40px;
+	width: 180px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 25px;
+	margin-top: 0px;
+}
+#artworks_container {
+	margin-left: 20px;
+}
+.title_medium {
+	background-image: url(../images/medium.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	font-size: 12px;
+	color: #084A74;
+	display: block;
+	height: 25px;
+	padding-top: 10px;
+	font-family: 'Museo slab', sans-serif;
+	padding-left: 40px;
+	width: 170px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+}
+.title_artworks {
+	background-image: url(../images/artworks2.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	font-size: 12px;
+	color: #084A74;
+	display: block;
+	height: 25px;
+	padding-top: 10px;
+	font-family: 'Museo slab', sans-serif;
+	padding-left: 40px;
+	width: 240px;
+	margin-right: 0px;
+	margin-left: -3px;
+	margin-bottom: 15px;
+}
+.title_price {
+	background-image: url(../images/price.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	font-size: 12px;
+	color: #084A74;
+	display: block;
+	height: 25px;
+	padding-top: 10px;
+	font-family: 'Museo slab', sans-serif;
+	padding-left: 40px;
+	width: 170px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+}
+.title_artist {
+	background-image: url(../images/artist.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	font-size: 12px;
+	color: #084A74;
+	display: block;
+	height: 25px;
+	padding-top: 10px;
+	font-family: 'Museo slab', sans-serif;
+	padding-left: 40px;
+	width: 170px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+}
+#content {
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 100%;
+}
+#rate_container {
+	height: 95px;
+	width: 235px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #9BB3BD;
+	margin-bottom: 15px;
+}
+#left_container {
+	float: left;
+	width: 235px;
+}
+.artworks {
+	font-size: 12px;
+	color: #084A74;
+	font-family: 'Museo slab', sans-serif;
+}
+.artworks b {
+	font-family: 'Oswald', sans-serif;
+	font-size: 140px;
+	color: #E73390;
+	font-weight: 500;
+	line-height: 120px;
+	margin-right: 10px;
+}
+.barchart {
+	margin-top: 25px;
+}
+#right_container {
+	float: right;
+	width: 963px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #9BB3BD;
+}
+.piechart {
+	padding: 0px;
+	list-style-type: none;
+	height: 280px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+.piechart li {
+	display: inline;
+	float: left;
+	width: 239px;
+	height: 280px;
+	padding-left: 0px;
+}
+.line {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #9CB1BE;
+}
+.gallery_hours {
+	width: 240px;
+	list-style-type: none;
+	padding-left: 15px;
+}
+
+.artworks_img {
+	padding-top: -3px;
+	padding-right: -3px;
+	padding-left: -3px;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: -6px;
+	margin-left: 0px;
+}
+#holder, #holder2, #holder3 , #holder4{
+	height: 200px;
+	position: relative;
+	width: 200px;
+	padding: 0px;
+	top: -50px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: -30px;
+}
+
+#copy {
+    bottom: 0;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    right: 1em;
+    text-align: right;
+}
+#copy a {
+    color: #fff;
+}
+.clearboth {
+			clear: both;
+}
+		
+#artworks_container ul {
+	list-style-type: none;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+#artworks_container ul li {
+	display: inline;
+	height: 0px;
+	width: 0px;
+	margin-top: 0px;
+	margin-right: 15px;
+	margin-bottom: 100px;
+	margin-left: 0px;
+	padding: 0px;
+}
+.rating {
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	color: #E73390;
+	float: left;
+}
+.jqRater {
+	width: 120px;
+	margin-top: 13px;
+	margin-left: 5px;
+}
+.rate {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.rate li {
+	display: inline;
+	float: left;
+}
+.rate_img {
+	margin-top: 13px;
+	margin-left: 10px;
+	height: 20px;
+	width: 50px;
+}
+/* Bubble with an isoceles triangle
+------------------------------------------ */
+
+.triangle-isosceles {
+	sfont-family: 'Museo slab', sans-serif;
+	position:relative;
+	padding:10px;
+	color:#084A74;
+	background:#fff;
+	margin-top: 10px;
+	margin-right: 0;
+	margin-left: 0;
+	font-size: 11px;
+	line-height: 12px;   /* css3 */
+	width: 105px;
+	-moz-box-shadow:    0px 0px 3px 2px #00395E;
+	-webkit-box-shadow: 0px 0px 3px 2px #00395E;
+	box-shadow:         0px 0px 3px 2px #00395E;
+}
+
+/* creates triangle */
+.triangle-isosceles:after {
+	content:"";
+	position:absolute;
+	bottom:-10px; /* value = - border-top-width - border-bottom-width */
+	left:15px;
+	/* reduce the damage in FF3.0 */
+    display:block;
+	width:0;
+	border-top-width: 10px;
+	border-right-width: 10px;
+	border-bottom-width: 0;
+	border-left-width: 10px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFF;
+	border-right-color: transparent;
+	border-bottom-color: #FFF;
+	border-left-color: transparent;
+}
+
+.triangle-isosceles.top:after {
+	top:-10px; /* value = - border-top-width - border-bottom-width */
+	right:85px; /* controls horizontal position */
+	bottom:auto;
+	left:auto;
+	border-top-width: 0;
+	border-right-width: 10px;
+	border-bottom-width: 10px;
+	border-left-width: 10px;
+	border-top-color: #FFF;
+	border-right-color: transparent;
+	border-bottom-color: #FFF;
+	border-left-color: transparent;
+}
+.time {
+	font-size: 10px;
+	color: #9CB1BE;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 1px;
+	line-height: 8px;
+	margin: 0px;
+}
+.time_special {
+	font-size: 10px;
+	color: #FFF;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 1px;
+	line-height: 8px;
+	margin: 0px;
+}
+.space {
+	margin-left: 20px;
+	margin-top: -5px;
+}
+.gallery_hours li {
+}
+#close_btn {
+	float: right;
+	position: relative;
+	margin-top: 10px;
+	margin-right: 10px;
+}
