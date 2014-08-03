@@ -11,7 +11,10 @@ Demo: https://carlos-reynosa.github.io/la-artwalk
 
 #About
 
-
+The files within this repository represent the LA Artwalk Planner web application prototype developed in collaboration
+by Carlos Reynosa and I-Chun Lin (Irene). The application was designed and conceptualized by Irene whom at the time was
+a Master of Fine Arts in Graphic Design student at California State University, Fullerton. The application was a proof
+of concept implementation of Irene's final master project.
 
 #Gallery App Overview
 <img alt="LA Artwalk Gallery Overview" src="https://dd0bfbd39ca0f0567abe0b7ea594247663076f43.googledrive.com/host/0BzeRIFydrcV6M2E0WGJRQnFFTk0/gallery-overview.png"/>
