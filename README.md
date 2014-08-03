@@ -1,6 +1,7 @@
 #LA Artwalk Gallery Application
 
-
+<img alt='LA Artwalk Gallery App Logo' src='https://dd0bfbd39ca0f0567abe0b7ea594247663076f43.googledrive.com/host/0BzeRIFydrcV6M2E0WGJRQnFFTk0/arwalk-gallery-app-logo.png'/>
+<br>
 <center>
 <img style='max-width:45%' alt='LA Artwalk Gallery Presentation 1' src='https://dd0bfbd39ca0f0567abe0b7ea594247663076f43.googledrive.com/host/0BzeRIFydrcV6M2E0WGJRQnFFTk0/LA-Artwalk-In-Gallery-1.png' width='50%'/>
 </center>
