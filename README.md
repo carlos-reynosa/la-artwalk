@@ -1,8 +1,9 @@
 #LA Artwalk Gallery Application
 
 
+<center>
 <img style='max-width:45%' alt='LA Artwalk Gallery Presentation 1' src='https://dd0bfbd39ca0f0567abe0b7ea594247663076f43.googledrive.com/host/0BzeRIFydrcV6M2E0WGJRQnFFTk0/LA-Artwalk-In-Gallery-1.png' width='50%'/>
-
+</center>
 <img style='max-width:45%' alt='LA Artwalk Gallery Presentation 2' src='https://dd0bfbd39ca0f0567abe0b7ea594247663076f43.googledrive.com/host/0BzeRIFydrcV6M2E0WGJRQnFFTk0/LA-Artwalk-In-Gallery-2.png' width='50%'/>
 
 Demo: https://carlos-reynosa.github.io/la-artwalk
