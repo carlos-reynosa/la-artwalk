@@ -16,7 +16,14 @@ by Carlos Reynosa and [I-Chun Lin (Irene)] (http://www.linkedin.com/pub/i-chun-l
 a Master of Fine Arts in Graphic Design student at California State University, Fullerton. The application was a proof
 of concept implementation of Irene's final master project.
 
-#Gallery App Overview
+#Application Objectives
+
+* Allow users to view a graphical representation of participating LA Artwalk galleries and characteristics of their art.
+* Allow users to select and create lists of galleries and venues that they would like to attend.
+* Allow users to easily filter galleries based on type of media, style, and price.
+* Allow users to view additional gallery details like art examples, ratings, and times of operation.
+
+#Application Snapshot Examples
 <img alt="LA Artwalk Gallery Overview" src="https://dd0bfbd39ca0f0567abe0b7ea594247663076f43.googledrive.com/host/0BzeRIFydrcV6M2E0WGJRQnFFTk0/gallery-overview.png"/>
 
 <img alt="LA Artwalk Gallery Details Pop Up" src="https://dd0bfbd39ca0f0567abe0b7ea594247663076f43.googledrive.com/host/0BzeRIFydrcV6M2E0WGJRQnFFTk0/gallery-overview-popup-gallery-details.png"/>
