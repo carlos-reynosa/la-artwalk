@@ -11,7 +11,7 @@
 #About
 
 The files within this repository represent the LA Artwalk Planner web application prototype developed in collaboration
-with I-Chun Lin [I-Chun Lin (Irene)] (http://www.linkedin.com/pub/i-chun-lin/20/a92/55a). The application was designed and conceptualized by Irene whom at the time was
+with [I-Chun Lin (Irene)] (http://www.linkedin.com/pub/i-chun-lin/20/a92/55a). The application was designed and conceptualized by Irene whom at the time was
 a Master of Fine Arts in Graphic Design student at California State University, Fullerton. The application was a proof
 of concept implementation of Irene's final master project.
 
