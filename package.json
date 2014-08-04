@@ -1,0 +1,19 @@
+{
+    "name": "LA-Artwalk-Gallery-Application",
+    "version": "0.0.0",
+    "description": "Application that helps users in choosing what galleries to visit at the LA Artwalk",
+
+    "author": "Carlos E. Reynosa",
+    "license": "MIT",
+
+
+    "devDependencies": {
+        "grunt": "~0.4.5",
+
+        "grunt-shell": "~0.7.0",
+
+        "livereloadx": "~0.3.4",
+
+        "grunt-cli": "~0.1.13"
+    }
+}
