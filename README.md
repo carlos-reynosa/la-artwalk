@@ -7,7 +7,6 @@
 </center>
 <img style='max-width:45%' alt='LA Artwalk Gallery Presentation 2' src='https://dd0bfbd39ca0f0567abe0b7ea594247663076f43.googledrive.com/host/0BzeRIFydrcV6M2E0WGJRQnFFTk0/LA-Artwalk-In-Gallery-2.png' width='50%'/>
 
-Demo: https://carlos-reynosa.github.io/la-artwalk
 
 #About
 
@@ -22,6 +21,10 @@ of concept implementation of Irene's final master project.
 * Allow users to select and create lists of galleries and venues that they would like to attend.
 * Allow users to easily filter galleries based on type of media, style, and price.
 * Allow users to view additional gallery details like art examples, ratings, and times of operation.
+
+#Application Demo Site
+
+* https://carlos-reynosa.github.io/la-artwalk
 
 #Application Snapshot Examples
 <img alt="LA Artwalk Gallery Overview" src="https://dd0bfbd39ca0f0567abe0b7ea594247663076f43.googledrive.com/host/0BzeRIFydrcV6M2E0WGJRQnFFTk0/gallery-overview.png"/>
