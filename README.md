@@ -30,5 +30,6 @@ of concept implementation of Irene's final master project.
 
 <img alt="LA Artwalk Gallery Small Pop Up" src="https://dd0bfbd39ca0f0567abe0b7ea594247663076f43.googledrive.com/host/0BzeRIFydrcV6M2E0WGJRQnFFTk0/gallery-overview-popup.png"/>
 
+#Application Featured Within CSUF's Semester Graduate Newsletter
 <img alt='Graduate Newsletter Page 1' src='https://dd0bfbd39ca0f0567abe0b7ea594247663076f43.googledrive.com/host/0BzeRIFydrcV6M2E0WGJRQnFFTk0/newsletter-2.jpg'/>
 
