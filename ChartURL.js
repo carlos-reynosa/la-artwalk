@@ -1,6 +1,14 @@
-
-
-
+/**
+ * Given a gallery marker and art data, the class generates a URL that points to an image displaying
+ * a pie chart based on the characteristics of the art within the  gallery.
+ *
+ * The URL is based of a Google Charts REST service for generating images through HTTP calls.
+ * @param gallery
+ * @param markerOptions
+ * @param markerSize
+ * @returns {ChartURL}
+ * @constructor
+ */
 function ChartURL(gallery,markerOptions,markerSize){
 
 	this.base="https://chart.googleapis.com/chart?cht=p&chp=4.7&chd=t:";
@@ -18,9 +26,7 @@ function ChartURL(gallery,markerOptions,markerSize){
 		 data=[];
 	
  
-	//Ad the colors
-	
-	  //Get the data corresponsing to the marker Options
+
 	  if( markerOptions.category == "media")
 	  {  			  
 			  for(var j=0;j<markerOptions.typeFilter.length;j++)
@@ -61,7 +67,8 @@ function ChartURL(gallery,markerOptions,markerSize){
 	}
  
 
-this.setData(gallery,markerOptions,markerSize);
+    //Build the URL
+    this.setData(gallery,markerOptions,markerSize);
 
 return this;
 
@@ -76,28 +83,11 @@ return this.URL;
 
 },
 
-
-
-
-
-//ChartData
-
-//Represented by an array of slices
-
-//Each Slice containes two values. A value and a color
-
-//Ex slice= [100, 0000FF]
-
-//Ex of complete slice data = chartData=[ [100,0000FF] ]
-
-
-
 setData:function(gallery,markerOptions,markerSize){
 
  	this.URL=this.base;
 	var valueTempString="chco=";
-	 
-	
+
 	var category;
 	var otherData;
 	var dataTotal=0;
@@ -105,7 +95,6 @@ setData:function(gallery,markerOptions,markerSize){
 
 
 	//Chart data is an array of
-
 	var data=this.getFilteredData(gallery,markerOptions);
 	
 	//convert to percentage format for the pie chart  
@@ -139,7 +128,8 @@ setData:function(gallery,markerOptions,markerSize){
 	} 
 	
  
-	
+
+    //The URL to the image is stored within the object
 	this.URL+=valueTempString;
 	this.URL+=this.size;
 	this.URL+=this.end;
@@ -150,10 +140,9 @@ setData:function(gallery,markerOptions,markerSize){
 getWidth:function(){ return this.width;},
 
 getHeight:function(){ return this.height;}
-}; //end ChartData class
+};
 
 
 
 
 
- 
