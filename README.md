@@ -24,7 +24,7 @@ of concept implementation of Irene's final master project.
 
 #Application Demo Site
 
-* http://blog.carlos-reynosa.com/la-artwalk/
+* http://www.Carlos-Reynosa.com/la-artwalk/
 
 #Application Snapshot Examples
 <img alt="LA Artwalk Gallery Overview" src="https://dd0bfbd39ca0f0567abe0b7ea594247663076f43.googledrive.com/host/0BzeRIFydrcV6M2E0WGJRQnFFTk0/gallery-overview.png"/>
