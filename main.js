@@ -1,7 +1,7 @@
 /**
  * Initializes the application map, UI controls, and listeners.
  */
-function initialize() {
+function main() {
     markerVisibility = {bar: true, restaurant: true, gallery: true};
 
     markerProfileHeight = {
@@ -345,4 +345,4 @@ $(document).ready(function () {
     $("a#single_image").fancybox();
 });
 
-google.maps.event.addDomListener(window, 'load', initialize);
+google.maps.event.addDomListener(window, 'load', main);
