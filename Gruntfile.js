@@ -8,6 +8,12 @@ module.exports = function(grunt){
 
         pkg: grunt.file.readJSON('package.json'),
 
+        open:{
+            dev:{
+                path:'http://localhost:9000'
+            }
+        },
+
 
         shell:{
 
@@ -15,7 +21,7 @@ module.exports = function(grunt){
              * Provides and easy server for development.
              */
             server:{
-                command: 'php -S localhost:9000'
+                command: 'php -S localhost:9000;grunt open:dev'
 
             },
 
@@ -34,7 +40,10 @@ module.exports = function(grunt){
 
     grunt.loadNpmTasks('grunt-shell');
 
-    grunt.registerTask('server',['shell:server']);
+    grunt.loadNpmTasks('grunt-open');
+
+    grunt.registerTask('server',['open:dev','shell:server']);
+
 
     grunt.registerTask('watch',['shell:livereload']);
 
