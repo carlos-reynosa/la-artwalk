@@ -16,6 +16,7 @@
     "tests"
   ],
   "dependencies": {
-    "requirejs": "~2.1.15"
+    "requirejs": "~2.1.15",
+    "domReady": "git@github.com:requirejs/domReady.git#~2.0.1"
   }
 }
