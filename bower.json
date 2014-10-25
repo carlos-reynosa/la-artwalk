@@ -1,0 +1,21 @@
+{
+  "name": "la-artwalk",
+  "version": "0.0.0",
+  "homepage": "https://github.com/carlos-reynosa/la-artwalk",
+  "authors": [
+    "Carlos E. Reynosa-Nunez <raveash9@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "scripts/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.15"
+  }
+}
