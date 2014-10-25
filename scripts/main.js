@@ -52,6 +52,8 @@ function main() {
     //Color selection for pie charts should be hidden by default
     $("#colorboard").fadeOut(0);
 
+    $("a#single_image").fancybox();
+
     var zoomLevel = 16;
 
     //Default position on the map where the application should start
@@ -341,8 +343,6 @@ function main() {
     $("button2").click();
 }
 
-$(document).ready(function () {
-    $("a#single_image").fancybox();
-});
+
 
 google.maps.event.addDomListener(window, 'load', main);
