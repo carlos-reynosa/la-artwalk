@@ -1,6 +1,0 @@
-<div id="content">
-  <h1>{{title}}</h1>
-  <h2>{{content}}</h2>
-  <a class="addMymap" href="javascript:void(0);"><img src="images/btn_add.jpg" width="43" height="18"></a>
-  <a href="#"><img src="images/btn_profile.jpg" width="43" height="18"></a>
-</div>
