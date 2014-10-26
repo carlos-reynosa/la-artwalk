@@ -1,6 +1,6 @@
 require.config({
     deps:['main'],
-    baseUr:'scripts/',
+    baseUrl:'scripts/',
     paths:{
 
         'domReady':'/scripts/bower_components/domReady/domReady',
