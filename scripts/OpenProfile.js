@@ -1,6 +1,6 @@
 function openProfile(markerID) {
     var tempThis;
-    var profileHeight = getProfileHeight(markerID);
+    var profileHeight = markerProfileHeight[markerID];
     if (!profileHeight) {
         profileHeight = 200;
     }
