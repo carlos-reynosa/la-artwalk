@@ -11,7 +11,7 @@ function initializeIconControls() {
             this.src = "./images/bar_off.png";
         },
         function (event) {
-            if (tempThis.markerVisibility.bar) {
+            if (MarkerVisibility || tempThis.markerVisibility.bar) {
                 this.src = "./images/bar_off.png";
             }
             else {
@@ -22,7 +22,7 @@ function initializeIconControls() {
     //Icon click event for bars toggle button
     $("#toggle-bar > a").click(function () {
         tempThis.toggleMarkerVisibility(barMarkers);
-        if (!tempThis.markerVisibility.bar) {
+        if (!(MarkerVisibility || tempThis.markerVisibility.bar)) {
             $("#toggle-bar a > img").prop("src", "./images/bar_on.png");
         }
     });
@@ -33,7 +33,7 @@ function initializeIconControls() {
             this.src = "./images/restaurant_off.png";
         },
         function (event) {
-            if (tempThis.markerVisibility.restaurant) {
+            if (MarkerVisibility || tempThis.markerVisibility.restaurant) {
                 this.src = "./images/restaurant_off.png";
             }
             else {
@@ -44,7 +44,7 @@ function initializeIconControls() {
     //Icon click event for restaurant toggle button
     $("#toggle-restaurant > a").click(function () {
         tempThis.toggleMarkerVisibility(restaurantMarkers);
-        if (!tempThis.markerVisibility.restaurant) {
+        if (!(MarkerVisibility || tempThis.markerVisibility.restaurant)) {
             $("#toggle-restaurant a > img").prop("src", "./images/restaurant_on.png");
         }
     });
@@ -55,7 +55,7 @@ function initializeIconControls() {
             this.src = "./images/gallery_off.png";
         },
         function (event) {
-            if (tempThis.markerVisibility.gallery) {
+            if (MarkerVisibility || tempThis.markerVisibility.gallery) {
                 this.src = "./images/gallery_off.png";
             }
             else {
@@ -66,7 +66,7 @@ function initializeIconControls() {
     //Icon click event for gallery toggle button
     $("#toggle-gallery > a").click(function () {
         tempThis.toggleMarkerVisibility(galleryMarkers);
-        if (!tempThis.markerVisibility.gallery) {
+        if (!(MarkerVisibility || tempThis.markerVisibility.gallery)) {
             $("#toggle-gallery a > img").prop("src", "./images/gallery_on.png");
         }
     });
