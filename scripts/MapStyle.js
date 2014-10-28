@@ -1,5 +1,5 @@
-function getMapStyle() {
-    return styleArray = [
+define(function getMapStyle() {
+    return [
         {
             featureType: 'all',
             stylers: [
@@ -36,4 +36,4 @@ function getMapStyle() {
             ]
         }
     ];
-}
+});

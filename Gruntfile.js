@@ -2,25 +2,28 @@
  * Tasks for running the php dev server and livereload server
  *
  */
-module.exports = function(grunt){
+module.exports = function (grunt) {
 
     grunt.initConfig({
 
         pkg: grunt.file.readJSON('package.json'),
 
-        open:{
-            dev:{
-                path:'http://localhost:9000'
+        open: {
+            dev: {
+                path: 'http://localhost:9000',
+                options: {
+                    delay: 5
+                }
             }
         },
 
 
-        shell:{
+        shell: {
 
             /**
              * Provides and easy server for development.
              */
-            server:{
+            server: {
                 command: 'php -S localhost:9000;grunt open:dev'
 
             },
@@ -28,7 +31,7 @@ module.exports = function(grunt){
             /**
              * Uses the node implementation of livereload for refreshing the browser.
              */
-            livereload:{
+            livereload: {
 
                 //Only look for changes in the newly regenerated blog in the public folder
                 command: 'livereloadx .'
@@ -42,10 +45,10 @@ module.exports = function(grunt){
 
     grunt.loadNpmTasks('grunt-open');
 
-    grunt.registerTask('server',['open:dev','shell:server']);
+    grunt.registerTask('server', ['open:dev', 'shell:server']);
 
 
-    grunt.registerTask('watch',['shell:livereload']);
+    grunt.registerTask('watch', ['shell:livereload']);
 
 
 };

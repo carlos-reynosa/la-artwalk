@@ -1,4 +1,4 @@
-function getRestaurantMarkers(restaurantData) {
+define(['RestaurantData', 'Google'], function (restaurantData, google) {
     var markerList = [];
     for (var i = 0; i < restaurantData.length; i++) {
         markerList.push(new google.maps.Marker({
@@ -18,4 +18,4 @@ function getRestaurantMarkers(restaurantData) {
         markerList[i].phoneNumber = restaurantData[i][2];
     }
     return markerList;
-}
+});

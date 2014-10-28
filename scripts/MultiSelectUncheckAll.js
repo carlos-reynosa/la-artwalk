@@ -1,3 +1,7 @@
-function multiSelectUncheckAll() {
-    $("select").multiselect("uncheckAll");
-}
+define(function () {
+
+    return function () {
+        $("select").multiselect("uncheckAll");
+    }
+});
+

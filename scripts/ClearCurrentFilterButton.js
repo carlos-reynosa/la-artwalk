@@ -1,8 +1,13 @@
 /**
  * Removes any buttons that represent art characteristic filters within the UI.
  */
-function clearCurrentFilterButtons() {
-    $(".filterButton").fadeOut(150, function () {
-        $(this).remove();
-    });
-}
+
+define(function(){
+
+    return function () {
+        $(".filterButton").fadeOut(150, function () {
+            $(this).remove();
+        });
+    };
+});
+
