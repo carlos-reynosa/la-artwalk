@@ -2,11 +2,11 @@ define(['ChartColors', 'CurrentCategory'], function (chartColors, currentCategor
 
     return function (colorArray, typeArray) {
         var markerOptions = {
-            category: "",
+            category: '',
             typeFilter: []
         };
         if (colorArray.length == typeArray.length) {
-            markerOptions["category"] = currentCategory.getValue();
+            markerOptions['category'] = currentCategory.getValue();
             for (var i = 0; i < colorArray.length; i++) {
                 markerOptions.typeFilter.push({
                     type: typeArray[i],
