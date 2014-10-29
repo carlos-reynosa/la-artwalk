@@ -1,8 +1,7 @@
-define(['MapDefaultLocation','MapStyle','DefaultZoomLevel','MapDomID','Google'],
-    function (mapDefaultLocation, mapStyle, zoomLevel, mapDivID,google) {
-
-    var myLatLng = new google.maps.LatLng(mapDefaultLocation.lat, mapDefaultLocation.lng);
-    var mapOptions = {
+define(['MapDefaultLocation', 'MapStyle', 'DefaultZoomLevel', 'MapDomID', 'Google'],
+    function (mapDefaultLocation, mapStyle, zoomLevel, mapDivID, google) {
+        var myLatLng = new google.maps.LatLng(mapDefaultLocation.lat, mapDefaultLocation.lng);
+        var mapOptions = {
             zoom: zoomLevel,
             center: myLatLng,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
@@ -13,10 +12,10 @@ define(['MapDefaultLocation','MapStyle','DefaultZoomLevel','MapDomID','Google'],
             mapTypeControl: false,
             streetViewControl: false
         };
-    var map=new google.maps.Map(document.getElementById(mapDivID), mapOptions);
 
-        window.map=map;
+        var map = new google.maps.Map(document.getElementById(mapDivID), mapOptions);
 
+        //Needed as global for other third party libraries not loaded through requirejs
+        window.map = map;
         return map;
-
-});
+    });
