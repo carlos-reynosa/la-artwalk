@@ -24,25 +24,21 @@ define(['RestaurantMarkers',
               $,
               document,
               markerListControl) {
-        var tempThis = this;
         var contentString;
-
 
         $('.profile-open-link').live('click', function () {
             openProfile(this.dataset.profileId);
         });
 
-
         $('.infobubble-button-link').live('click', function () {
-
             addMarkerToMyMap();
         });
-        for (var j = 0; j < restaurantMarkers.length; j++) {
 
+        for (var j = 0; j < restaurantMarkers.length; j++) {
             //Display a pop up for each restaurant marker when it is clicked  within the map
             google.maps.event.addListener(restaurantMarkers[j], 'click', function () {
                 if (!markerListControl.isOpen) {
-                    $("button2").click();
+                    $('button2').click();
                     markerListControl.isOpen = true;
                 }
 
@@ -52,23 +48,23 @@ define(['RestaurantMarkers',
                     if (lastMarkerClicked.galleryID >= 0) {
                         lastMarkerClicked.focusOut();
                         this.focusIn();
-                        this.switchMarkerColor("light-blue");
+                        this.switchMarkerColor('light-blue');
                         if (!lastMarkerClicked.isSelected) {
-                            lastMarkerClicked.switchMarkerColor("pink");
+                            lastMarkerClicked.switchMarkerColor('pink');
                         }
                     }
                     else {
                         if (!lastMarkerClicked.isSelected) {
-                            lastMarkerClicked.switchMarkerColor("dark-blue");
+                            lastMarkerClicked.switchMarkerColor('dark-blue');
                             lastMarkerClicked.focusOut();
                         }
                         this.focusIn();
-                        this.switchMarkerColor("light-blue");
+                        this.switchMarkerColor('light-blue');
                     }
                 }
                 else {
                     this.focusIn();
-                    this.switchMarkerColor("light-blue");
+                    this.switchMarkerColor('light-blue');
                 }
                 if (infoBubble.isOpen()) {
                     infoBubble.close();
@@ -85,16 +81,16 @@ define(['RestaurantMarkers',
 
             //Each marker changes colors when selected
             //Two possible colors, pink and blue
-            restaurantMarkers[j].clickedIconURL = "./images/restaurant_b.png";
-            restaurantMarkers[j].unClickedIconURL = "./images/restaurant.png";
+            restaurantMarkers[j].clickedIconURL = './images/restaurant_b.png';
+            restaurantMarkers[j].unClickedIconURL = './images/restaurant.png';
 
             restaurantMarkers[j].isSelected = false;
 
             restaurantMarkers[j].switchMarkerColor = function (color) {
-                if (color == "light-blue") {
+                if (color == 'light-blue') {
                     this.setIcon(this.clickedIconURL);
                 }
-                else if (color == "dark-blue") {
+                else if (color == 'dark-blue') {
                     this.setIcon(this.unClickedIconURL);
                 }
             };
@@ -115,7 +111,7 @@ define(['RestaurantMarkers',
             //Display a pop up for each bar marker when it is clicked  within the map
             google.maps.event.addListener(barMarkers[j], 'click', function () {
                 if (!markerListControl.isOpen) {
-                    $("button2").click();
+                    $('button2').click();
                     markerListControl.isOpen = true;
                 }
 
@@ -124,24 +120,24 @@ define(['RestaurantMarkers',
                 if (lastMarkerClicked) {
                     if (lastMarkerClicked.galleryID >= 0) {
                         this.focusIn();
-                        this.switchMarkerColor("light-blue");
+                        this.switchMarkerColor('light-blue');
                         lastMarkerClicked.focusOut();
                         if (!lastMarkerClicked.isSelected) {
-                            lastMarkerClicked.switchMarkerColor("pink")
+                            lastMarkerClicked.switchMarkerColor('pink')
                         }
                     }
                     else {
                         if (!lastMarkerClicked.isSelected) {
-                            lastMarkerClicked.switchMarkerColor("dark-blue");
+                            lastMarkerClicked.switchMarkerColor('dark-blue');
                             lastMarkerClicked.focusOut();
                         }
                         this.focusIn();
-                        this.switchMarkerColor("light-blue");
+                        this.switchMarkerColor('light-blue');
                     }
                 }
                 else {
                     this.focusIn();
-                    this.switchMarkerColor("light-blue");
+                    this.switchMarkerColor('light-blue');
                 }
                 if (infoBubble.isOpen()) {
                     infoBubble.close();
@@ -156,16 +152,16 @@ define(['RestaurantMarkers',
 
             //Each bar marker changes colors when selected
             //Two possible colors, pink and blue
-            barMarkers[j].clickedIconURL = "./images/bar_b.png";
-            barMarkers[j].unClickedIconURL = "./images/bar.png";
+            barMarkers[j].clickedIconURL = './images/bar_b.png';
+            barMarkers[j].unClickedIconURL = './images/bar.png';
 
             barMarkers[j].isSelected = false;
 
             barMarkers[j].switchMarkerColor = function (color) {
-                if (color == "light-blue") {
+                if (color == 'light-blue') {
                     this.setIcon(this.clickedIconURL);
                 }
-                else if (color == "dark-blue") {
+                else if (color == 'dark-blue') {
                     this.setIcon(this.unClickedIconURL);
                 }
             };
@@ -187,7 +183,7 @@ define(['RestaurantMarkers',
             //Display a pop up for each gallery marker when it is clicked  within the map
             google.maps.event.addListener(galleryMarkers[i], 'click', function () {
                 if (!markerListControl.isOpen) {
-                    $("button2").click();
+                    $('button2').click();
                     markerListControl.isOpen = true;
                 }
 
@@ -199,22 +195,22 @@ define(['RestaurantMarkers',
                         lastMarkerClicked.focusOut();
 
                         if (!lastMarkerClicked.isSelected) {
-                            lastMarkerClicked.switchMarkerColor("pink");
+                            lastMarkerClicked.switchMarkerColor('pink');
                         }
 
-                        this.switchMarkerColor("blue");
+                        this.switchMarkerColor('blue');
                     }
                     else if (lastMarkerClicked.barID >= 0 || lastMarkerClicked.restaurantID >= 0) {
                         this.focusIn();
-                        this.switchMarkerColor("blue");
+                        this.switchMarkerColor('blue');
                         lastMarkerClicked.focusOut();
                         if (!lastMarkerClicked.isSelected) {
-                            lastMarkerClicked.switchMarkerColor("dark-blue");
+                            lastMarkerClicked.switchMarkerColor('dark-blue');
                         }
                     }
                 }
                 else {
-                    this.switchMarkerColor("blue");
+                    this.switchMarkerColor('blue');
                     this.focusIn();
                 }
 
@@ -230,10 +226,10 @@ define(['RestaurantMarkers',
             });
 
             galleryMarkers[i].switchMarkerColor = function (color) {
-                if (map.mapTypeAppState == "colors") {
-                    if (color == "pink") {
+                if (map.mapTypeAppState == 'colors') {
+                    if (color == 'pink') {
                         this.setIcon(this.pinkMarkerURL);
-                    } else if (color = "blue") {
+                    } else if (color = 'blue') {
                         this.setIcon(this.blueMarkerURL);
                     }
                 }
@@ -245,7 +241,7 @@ define(['RestaurantMarkers',
                 this.zIndex = 10000;
             };
 
-            galleryMarkers[i].markerType = "gallery";
+            galleryMarkers[i].markerType = 'gallery';
 
             galleryMarkers[i].focusOut = function () {
                 this.zIndex = this.defaultzIndex;
