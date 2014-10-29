@@ -35,13 +35,10 @@ require(['jquery',
               addFilterButtons,
               refreshSelectBox) {
 
-
-        //initializeTabListiners();
-
-        $("select").multiselect();
+        $('select').multiselect();
 
         //Grabs the filter information selected by the user and creates a pie chart for each gallery
-        $("#finish-button").click(function (e) {
+        $('#finish-button').click(function () {
             infoBubble.close();
             var numberOfFilters = getFilterButtonTypeData().length;
             if (numberOfFilters > 0) {
@@ -59,10 +56,10 @@ require(['jquery',
         });
 
         //Clears out all filters and removes all markers from the map
-        $("#revert-button").click(function () {
+        $('#revert-button').click(function () {
 
-            $("select").multiselect("uncheckAll");
-            $("#colorboard").fadeOut(0);
+            $('select').multiselect('uncheckAll');
+            $('#colorboard').fadeOut(0);
 
             clearCurrentFilterButtons();
 
@@ -72,13 +69,13 @@ require(['jquery',
         });
 
         //Defines what the the multi select box filter selection should do when opened and closed
-        $("select").multiselect({
-            close: function (event, ui) {
+        $('select').multiselect({
+            close: function () {
                 clearCurrentFilterButtons();
                 window.currentCategoriesSelected = getSelectedTypes();
                 addFilterButtons(window.currentCategoriesSelected);
             },
-            open: function (event, ui) {
+            open: function () {
                 refreshSelectBox();
             }
         });
