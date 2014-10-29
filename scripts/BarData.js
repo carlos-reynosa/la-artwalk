@@ -1,3 +1,6 @@
+/**
+ * Contains the name and map location for each bar marker.
+ */
 define(function () {
     return [
         ['Broadway Bar', '830 S Broadway Los Angeles, CA 90014', '213-614-9909', 34.042964, -118.255260, 100],
