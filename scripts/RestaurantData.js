@@ -1,7 +1,5 @@
 define(function () {
-
-
-    //information displayed on the pop up for each marke that is selected
+    //information displayed on the pop up for each marker that is selected
     return [
         ['Water Grill', '544 S Grand Ave Los Angeles, CA 90071', '213-891-0900', 34.049092, -118.254855, 6],
         ['Engine Co. No. 28.', '644 S Figueroa St Los Angeles, CA 90017', '213-624-6996', 34.049742, -118.259408, 7],
