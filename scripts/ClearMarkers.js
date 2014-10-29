@@ -1,5 +1,4 @@
-define(['SetMarkerVisibility','jquery','MarkerInfoBubble'],function (setMarkerVisibilityValue,$,infoBubble) {
-
+define(['SetMarkerVisibility', 'jquery', 'MarkerInfoBubble'], function (setMarkerVisibilityValue, $, infoBubble) {
     return function (markers) {
         if (markers) {
             if (infoBubble.isOpen()) {
@@ -12,7 +11,7 @@ define(['SetMarkerVisibility','jquery','MarkerInfoBubble'],function (setMarkerVi
                 }
             }
             setMarkerVisibilityValue(markers, false);
-            $("#toggle-" + markers[0].markerType + " a > img").prop("src", "./images/" + markers[0].markerType + "_on.png");
+            $('#toggle-' + markers[0].markerType + ' a > img').prop('src', './images/' + markers[0].markerType + '_on.png');
         }
     };
 });
