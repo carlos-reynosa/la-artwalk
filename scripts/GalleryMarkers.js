@@ -1,12 +1,6 @@
 /**
  * Returns a list of Google Maps gallery marker objects for use within the application.
- * @param markerData
- * @param markerOptions
- * @param baseMarkerSize
- * @param map
- * @returns {Array}
  */
-
 define(['GalleryMarkerData', 'MarkerOptions', 'BaseMarkerSize', 'AppMap', 'Google', 'GetResizedMarkerSize'],
     function (markerData, markerOptions, baseMarkerSize, map, google, getResizedMarkerSize) {
         var markerImageURL;
@@ -19,14 +13,13 @@ define(['GalleryMarkerData', 'MarkerOptions', 'BaseMarkerSize', 'AppMap', 'Googl
 
             gallery = markerData[i];
 
-            //Setup gallery marker click region
             resizedMarkerSize = getResizedMarkerSize(baseMarkerSize, gallery);
+            
             shape = {
                 coord: [resizedMarkerSize.width, resizedMarkerSize.height / 2, (resizedMarkerSize.width / 2) + 10],
-                type: "circle"
+                type: 'circle'
             };
 
-            //Create Google Maps markers and save a reference to each
             markers[i] = new google.maps.Marker({
                 position: new google.maps.LatLng(gallery.latitude, gallery.longitude),
                 clickable: true,
@@ -37,8 +30,8 @@ define(['GalleryMarkerData', 'MarkerOptions', 'BaseMarkerSize', 'AppMap', 'Googl
 
             markers[i].galleryID = i;
 
-            markers[i].blueMarkerURL = "./images/markers/" + markers[i].galleryID + "_b.png";
-            markers[i].pinkMarkerURL = "./images/markers/" + markers[i].galleryID + "_p.png";
+            markers[i].blueMarkerURL = './images/markers/' + markers[i].galleryID + '_b.png';
+            markers[i].pinkMarkerURL = './images/markers/' + markers[i].galleryID + '_p.png';
 
             /**
              * Providing each marker with tha ability to fade slightly.
@@ -51,52 +44,50 @@ define(['GalleryMarkerData', 'MarkerOptions', 'BaseMarkerSize', 'AppMap', 'Googl
 
                 var tempIcon = this.icon;
                 var urlColorIndex;
-                var urlItems = tempIcon.split("&");
+                var urlItems = tempIcon.split('&');
 
                 for (var i = 0; i < urlItems.length; i++) {
-                    if (urlItems[i].indexOf("chco") >= 0) {
+                    if (urlItems[i].indexOf('chco') >= 0) {
                         urlColorIndex = i;
                         break;
                     }
                 }
 
-                var splitColors = urlItems[urlColorIndex].split("|");
-                var newColorSection = "";
+                var splitColors = urlItems[urlColorIndex].split('|');
+                var newColorSection = '';
 
                 for (var i = 0; i < splitColors.length; i++) {
                     if (i == splitColors.length - 1) {
-                        newColorSection += splitColors[i] + "AA";
+                        newColorSection += splitColors[i] + 'AA';
                     } else {
-                        newColorSection += splitColors[i] + "AA|";
+                        newColorSection += splitColors[i] + 'AA|';
                     }
                 }
 
                 urlItems[urlColorIndex] = newColorSection;
 
-                var newFadedIcon = "";
+                var newFadedIcon = '';
 
                 for (var i = 0; i < urlItems.length; i++) {
                     if (i == urlItems.length - 1) {
                         newFadedIcon += urlItems[i];
                     } else {
-                        newFadedIcon += urlItems[i] + "&";
+                        newFadedIcon += urlItems[i] + '&';
                     }
                 }
 
                 this.setIcon(newFadedIcon);
 
                 this.fadeOutURL = newFadedIcon;
-            }
+            };
 
             markers[i].fadeIn = function () {
                 this.setIcon(this.fadeInURL);
-            }
+            };
 
             google.maps.Marker.prototype.galleryData = null;
 
             markers[i].galleryData = gallery;
-
         }
-
         return markers;
     });
