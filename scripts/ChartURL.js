@@ -1,6 +1,5 @@
 /**
- * Given a gallery marker and art data, the class generates a URL that points to an image displaying
- * a pie chart based on the characteristics of the art within the  gallery.
+ * Class that generates a Google Charts Pie Chart URL by using gallery marker data.
  */
 
 define(['MarkerOptions'], function (markerOptions) {
@@ -43,7 +42,7 @@ define(['MarkerOptions'], function (markerOptions) {
             return data;
         };
 
-        //Build the URL
+        //Build the URL and store it internally within the class
         this.setData(gallery, markerOptions, markerSize);
 
         return this;
