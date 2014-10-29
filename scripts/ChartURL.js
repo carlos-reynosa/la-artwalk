@@ -54,6 +54,13 @@ define(['MarkerOptions'], function (markerOptions) {
         getChartURL: function () {
             return this.URL;
         },
+        /**
+         *  Builds a google charts pie chart URL by using the provided filter data and then storing it
+         *  internally within the object.
+         * @param gallery
+         * @param markerOptions
+         * @param markerSize
+         */
         setData: function (gallery, markerOptions, markerSize) {
             this.URL = this.base;
             var valueTempString = 'chco=';
