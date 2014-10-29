@@ -1,13 +1,12 @@
 /**
  * Returns an object containing numerical stats about each gallery within the application.
- * @returns {*[]}
  */
 define(
     function () {
         return [
             {
-                galleryAddress: "118 Winston St. 2nd Floor",
-                galleryName: "118 Winston Gallery",
+                galleryAddress: '118 Winston St. 2nd Floor',
+                galleryName: '118 Winston Gallery',
                 totalPieces: 10,
                 media: {
                     painting: 9,
@@ -40,8 +39,8 @@ define(
                 }
             },
             {
-                galleryAddress: "634 S. Spring St.",
-                galleryName: "Art Walk Lounge",
+                galleryAddress: '634 S. Spring St.',
+                galleryName: 'Art Walk Lounge',
                 totalPieces: 5,
                 media: {
                     painting: 0,
@@ -74,8 +73,8 @@ define(
                 }
             },
             {
-                galleryAddress: "216 S. Spring St.",
-                galleryName: "ART-E Gallery",
+                galleryAddress: '216 S. Spring St.',
+                galleryName: 'ART-E Gallery',
                 totalPieces: 9,
                 media: {
                     painting: 8,
@@ -108,8 +107,8 @@ define(
                 }
             },
             {
-                galleryAddress: "634 South Main Street",
-                galleryName: "Arty Gallery",
+                galleryAddress: '634 South Main Street',
+                galleryName: 'Arty Gallery',
                 totalPieces: 6,
                 media: {
                     painting: 6,
@@ -142,8 +141,8 @@ define(
                 }
             },
             {
-                galleryAddress: "810 Spring St. Lower Level",
-                galleryName: "Black & White Gallery",
+                galleryAddress: '810 Spring St. Lower Level',
+                galleryName: 'Black & White Gallery',
                 totalPieces: 17,
                 media: {
                     painting: 9,
@@ -176,8 +175,8 @@ define(
                 }
             },
             {
-                galleryAddress: "207 W. 5th Street",
-                galleryName: "CB1 Gallery",
+                galleryAddress: '207 W. 5th Street',
+                galleryName: 'CB1 Gallery',
                 totalPieces: 15,
                 media: {
                     painting: 6,
@@ -210,8 +209,8 @@ define(
                 }
             },
             {
-                galleryAddress: "177 W. Olympic Blvd",
-                galleryName: "CHRONOS Gallery",
+                galleryAddress: '177 W. Olympic Blvd',
+                galleryName: 'CHRONOS Gallery',
                 totalPieces: 10,
                 media: {
                     painting: 10,
@@ -244,8 +243,8 @@ define(
                 }
             },
             {
-                galleryAddress: "215 W. 6th St. #111",
-                galleryName: "Dialect Gallery",
+                galleryAddress: '215 W. 6th St. #111',
+                galleryName: 'Dialect Gallery',
                 totalPieces: 11,
                 media: {
                     painting: 0,
@@ -278,8 +277,8 @@ define(
                 }
             },
             {
-                galleryAddress: "727 S. Spring Street",
-                galleryName: "Drkrm gallery",
+                galleryAddress: '727 S. Spring Street',
+                galleryName: 'Drkrm gallery',
                 totalPieces: 36,
                 media: {
                     painting: 0,
@@ -312,8 +311,8 @@ define(
                 }
             },
             {
-                galleryAddress: "109 W. 5th St",
-                galleryName: "El Nopal Press Gallery",
+                galleryAddress: '109 W. 5th St',
+                galleryName: 'El Nopal Press Gallery',
                 totalPieces: 7,
                 media: {
                     painting: 0,
@@ -346,8 +345,8 @@ define(
                 }
             },
             {
-                galleryAddress: "811 W. 7th St",
-                galleryName: "Fine Arts Building",
+                galleryAddress: '811 W. 7th St',
+                galleryName: 'Fine Arts Building',
                 totalPieces: 21,
                 media: {
                     painting: 0,
@@ -380,8 +379,8 @@ define(
                 }
             },
             {
-                galleryAddress: "334s. Main Street",
-                galleryName: "Gallery Metamorphosis",
+                galleryAddress: '334s. Main Street',
+                galleryName: 'Gallery Metamorphosis',
                 totalPieces: 31,
                 media: {
                     painting: 31,
@@ -414,8 +413,8 @@ define(
                 }
             },
             {
-                galleryAddress: "548 S. Spring St",
-                galleryName: "Gallery Mujo",
+                galleryAddress: '548 S. Spring St',
+                galleryName: 'Gallery Mujo',
                 totalPieces: 16,
                 media: {
                     painting: 16,
@@ -448,8 +447,8 @@ define(
                 }
             },
             {
-                galleryAddress: "860 S. Broadway",
-                galleryName: "Take My Picture",
+                galleryAddress: '860 S. Broadway',
+                galleryName: 'Take My Picture',
                 totalPieces: 30,
                 media: {
                     painting: 0,
@@ -482,8 +481,8 @@ define(
                 }
             },
             {
-                galleryAddress: "433 S. Spring St",
-                galleryName: "Ground Floor Gallery",
+                galleryAddress: '433 S. Spring St',
+                galleryName: 'Ground Floor Gallery',
                 totalPieces: 31,
                 media: {
                     painting: 24,
@@ -516,8 +515,8 @@ define(
                 }
             },
             {
-                galleryAddress: "905 S. Hill St",
-                galleryName: "Hatakeyama Gallery",
+                galleryAddress: '905 S. Hill St',
+                galleryName: 'Hatakeyama Gallery',
                 totalPieces: 20,
                 media: {
                     painting: 0,
@@ -550,8 +549,8 @@ define(
                 }
             },
             {
-                galleryAddress: "358 E. 2nd St",
-                galleryName: "Hold Up Art Gallery",
+                galleryAddress: '358 E. 2nd St',
+                galleryName: 'Hold Up Art Gallery',
                 totalPieces: 39,
                 media: {
                     painting: 29,
@@ -584,8 +583,8 @@ define(
                 }
             },
             {
-                galleryAddress: "620 S. Main Street #204",
-                galleryName: "Jennifer Main Gallery",
+                galleryAddress: '620 S. Main Street #204',
+                galleryName: 'Jennifer Main Gallery',
                 totalPieces: 35,
                 media: {
                     painting: 35,
@@ -618,8 +617,8 @@ define(
                 }
             },
             {
-                galleryAddress: "120 Judge John Aiso St.",
-                galleryName: "LA ARTCORE Gallery",
+                galleryAddress: '120 Judge John Aiso St.',
+                galleryName: 'LA ARTCORE Gallery',
                 totalPieces: 26,
                 media: {
                     painting: 0,
@@ -652,8 +651,8 @@ define(
                 }
             },
             {
-                galleryAddress: "333 Alameda St.",
-                galleryName: "LELA Terakoya",
+                galleryAddress: '333 Alameda St.',
+                galleryName: 'LELA Terakoya',
                 totalPieces: 23,
                 media: {
                     painting: 11,
@@ -686,8 +685,8 @@ define(
                 }
             },
             {
-                galleryAddress: "215 W. 6th St. #113",
-                galleryName: "Lexander gallery",
+                galleryAddress: '215 W. 6th St. #113',
+                galleryName: 'Lexander gallery',
                 totalPieces: 35,
                 media: {
                     painting: 0,
@@ -720,8 +719,8 @@ define(
                 }
             },
             {
-                galleryAddress: "102 W. 5th St",
-                galleryName: "Los Angeles Center for Digital Art",
+                galleryAddress: '102 W. 5th St',
+                galleryName: 'Los Angeles Center for Digital Art',
                 totalPieces: 19,
                 media: {
                     painting: 0,
@@ -754,8 +753,8 @@ define(
                 }
             },
             {
-                galleryAddress: "525 West 7th St",
-                galleryName: "MB Abram Galleries",
+                galleryAddress: '525 West 7th St',
+                galleryName: 'MB Abram Galleries',
                 totalPieces: 18,
                 media: {
                     painting: 0,
@@ -788,8 +787,8 @@ define(
                 }
             },
             {
-                galleryAddress: "410 S. Spring St",
-                galleryName: "Miguel Osuna Art Studio",
+                galleryAddress: '410 S. Spring St',
+                galleryName: 'Miguel Osuna Art Studio',
                 totalPieces: 25,
                 media: {
                     painting: 25,
@@ -822,8 +821,8 @@ define(
                 }
             },
             {
-                galleryAddress: "250 S. Grand Ave",
-                galleryName: "MOCA Grand Avenue",
+                galleryAddress: '250 S. Grand Ave',
+                galleryName: 'MOCA Grand Avenue',
                 totalPieces: 17,
                 media: {
                     painting: 1,
@@ -856,8 +855,8 @@ define(
                 }
             },
             {
-                galleryAddress: "218 3rd St",
-                galleryName: "Morono Kiang Gallery",
+                galleryAddress: '218 3rd St',
+                galleryName: 'Morono Kiang Gallery',
                 totalPieces: 26,
                 media: {
                     painting: 9,
@@ -890,8 +889,8 @@ define(
                 }
             },
             {
-                galleryAddress: "215 W. 6th Street #110",
-                galleryName: "Norbertellen Gallery",
+                galleryAddress: '215 W. 6th Street #110',
+                galleryName: 'Norbertellen Gallery',
                 totalPieces: 10,
                 media: {
                     painting: 9,
@@ -924,8 +923,8 @@ define(
                 }
             },
             {
-                galleryAddress: "601 S. Los Angeles St.",
-                galleryName: "Phil Stern Gallery",
+                galleryAddress: '601 S. Los Angeles St.',
+                galleryName: 'Phil Stern Gallery',
                 totalPieces: 40,
                 media: {
                     painting: 0,
@@ -958,8 +957,8 @@ define(
                 }
             },
             {
-                galleryAddress: "1100 S. Hope St. #105",
-                galleryName: "PYO Gallery LA",
+                galleryAddress: '1100 S. Hope St. #105',
+                galleryName: 'PYO Gallery LA',
                 totalPieces: 55,
                 media: {
                     painting: 22,
@@ -992,8 +991,8 @@ define(
                 }
             },
             {
-                galleryAddress: "631 W. 2nd St",
-                galleryName: "REDCAT Gallery",
+                galleryAddress: '631 W. 2nd St',
+                galleryName: 'REDCAT Gallery',
                 totalPieces: 16,
                 media: {
                     painting: 5,
@@ -1026,8 +1025,8 @@ define(
                 }
             },
             {
-                galleryAddress: "408 S. Spring St",
-                galleryName: "Robert Reynolds",
+                galleryAddress: '408 S. Spring St',
+                galleryName: 'Robert Reynolds',
                 totalPieces: 11,
                 media: {
                     painting: 0,
@@ -1060,8 +1059,8 @@ define(
                 }
             },
             {
-                galleryAddress: "453 S Spring St",
-                galleryName: "Spring Arts Tower",
+                galleryAddress: '453 S Spring St',
+                galleryName: 'Spring Arts Tower',
                 totalPieces: 41,
                 media: {
                     painting: 6,
@@ -1094,8 +1093,8 @@ define(
                 }
             },
             {
-                galleryAddress: "901 S. Broadway",
-                galleryName: "Takeuchi Galleries",
+                galleryAddress: '901 S. Broadway',
+                galleryName: 'Takeuchi Galleries',
                 totalPieces: 13,
                 media: {
                     painting: 12,
@@ -1128,8 +1127,8 @@ define(
                 }
             },
             {
-                galleryAddress: "719 S. Spring St",
-                galleryName: "Temple of Visions",
+                galleryAddress: '719 S. Spring St',
+                galleryName: 'Temple of Visions',
                 totalPieces: 46,
                 media: {
                     painting: 46,
@@ -1162,8 +1161,8 @@ define(
                 }
             },
             {
-                galleryAddress: "1221 S. Hope St",
-                galleryName: "Terrell Moore Gallery",
+                galleryAddress: '1221 S. Hope St',
+                galleryName: 'Terrell Moore Gallery',
                 totalPieces: 14,
                 media: {
                     painting: 0,
@@ -1196,8 +1195,8 @@ define(
                 }
             },
             {
-                galleryAddress: "849 South Broadway",
-                galleryName: "The Annex",
+                galleryAddress: '849 South Broadway',
+                galleryName: 'The Annex',
                 totalPieces: 20,
                 media: {
                     painting: 0,
@@ -1230,8 +1229,8 @@ define(
                 }
             },
             {
-                galleryAddress: "860 Los Angeles St",
-                galleryName: "The Cooper Gallery",
+                galleryAddress: '860 Los Angeles St',
+                galleryName: 'The Cooper Gallery',
                 totalPieces: 23,
                 media: {
                     painting: 23,
@@ -1264,8 +1263,8 @@ define(
                 }
             },
             {
-                galleryAddress: "215 W. 9th St",
-                galleryName: "The Garden Gallery",
+                galleryAddress: '215 W. 9th St',
+                galleryName: 'The Garden Gallery',
                 totalPieces: 16,
                 media: {
                     painting: 16,
@@ -1298,8 +1297,8 @@ define(
                 }
             },
             {
-                galleryAddress: "729 S. Spring St",
-                galleryName: "The Hive Gallery",
+                galleryAddress: '729 S. Spring St',
+                galleryName: 'The Hive Gallery',
                 totalPieces: 15,
                 media: {
                     painting: 13,
@@ -1332,8 +1331,8 @@ define(
                 }
             },
             {
-                galleryAddress: "514 S. Spring St",
-                galleryName: "The Latino Museum",
+                galleryAddress: '514 S. Spring St',
+                galleryName: 'The Latino Museum',
                 totalPieces: 17,
                 media: {
                     painting: 0,
@@ -1366,8 +1365,8 @@ define(
                 }
             },
             {
-                galleryAddress: "450 Main St.",
-                galleryName: "The Local Tourist Spot",
+                galleryAddress: '450 Main St.',
+                galleryName: 'The Local Tourist Spot',
                 totalPieces: 27,
                 media: {
                     painting: 0,
@@ -1400,8 +1399,8 @@ define(
                 }
             },
             {
-                galleryAddress: "828 S. Main St., Los Angeles 90014",
-                galleryName: "Downtown Art Center Gallery",
+                galleryAddress: '828 S. Main St., Los Angeles 90014',
+                galleryName: 'Downtown Art Center Gallery',
                 totalPieces: 37,
                 media: {
                     painting: 4,
