@@ -1,7 +1,6 @@
-define(function () {
-
+define(['jquery'],function ($) {
     return function () {
-        return $("select").multiselect("getChecked").map(function () {
+        return $('select').multiselect('getChecked').map(function () {
             return {
                 value: this.value,
                 text: this.title
