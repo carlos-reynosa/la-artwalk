@@ -74,10 +74,7 @@ define(['RestaurantMarkers',
 
                 infoBubble.addTab('', contentString);
                 infoBubble.open(map, this);
-
-
             });
-
 
             //Each marker changes colors when selected
             //Two possible colors, pink and blue
