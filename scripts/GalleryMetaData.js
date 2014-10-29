@@ -1,3 +1,6 @@
+/**
+ * Categories used to describe and filter gallery markers.
+ */
 define(function () {
 
     return {
