@@ -1,3 +1,6 @@
+/**
+ * Builds and object that contains the final form of the data that describes each marker and its characteristics.
+ */
 define(['GalleryLocationData', 'GalleryData'],
     function (galleries, galleryArtTypeRawData) {
         var temp = [];
