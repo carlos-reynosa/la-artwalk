@@ -1,3 +1,6 @@
+/**
+ * Removes all the provided marker types (bars,galleries,restaurants) from the map.
+ */
 define(['SetMarkerVisibility', 'jquery', 'MarkerInfoBubble'], function (setMarkerVisibilityValue, $, infoBubble) {
     return function (markers) {
         if (markers) {
