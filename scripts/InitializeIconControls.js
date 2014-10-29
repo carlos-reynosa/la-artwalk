@@ -1,12 +1,9 @@
 /**
  *  Initializes click and hover event listeners on the controls that allow the user to toggle marker visibility and
  *  zoom level.
- *
  */
-define(['MarkerVisibility', 'ToggleMarkerVisibility', 'BarMarkers', 'RestaurantMarkers', 'GalleryMarkers', 'AppMap'],
-    function (markerVisibility, toggleMarkerVisibility, barMarkers, restaurantMarkers, galleryMarkers, map) {
-
-        var global = window;
+define(['MarkerVisibility', 'ToggleMarkerVisibility', 'BarMarkers', 'RestaurantMarkers', 'GalleryMarkers', 'AppMap', 'jquery'],
+    function (markerVisibility, toggleMarkerVisibility, barMarkers, restaurantMarkers, galleryMarkers, map, $) {
 
         //Icon hover event for bars toggle button
         $('#toggle-bar a > img').hover(
