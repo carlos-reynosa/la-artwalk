@@ -3,19 +3,10 @@
  */
 
 require(['domReady!',
-        'GalleryMarkerData',
-        'MarkerVisibility',
-        'MarkerProfileHeightList',
         'BarMarkers',
         'RestaurantMarkers',
-        'MapStyle',
         'AppMap',
-        'BaseMarkerSize',
-        'MarkerOptions',
         'Google',
-        'GalleryMarkers',
-        'GalleryMetaData',
-        'ChartColors',
         'AddMarkersToMap',
         'jquery',
         'FilterControl',
@@ -29,21 +20,12 @@ require(['domReady!',
 
     ],
     function (document,
-              galleryMarkerData,
-              markerVisibility,
-              markerProfileHeightList,
               barMarkers,
               restaurantMarkers,
-              mapStyle,
               map,
-              baseMarkerSize,
-              markerOptions,
               google,
-              galleryMarkers,
-              galleryMetaData,
-              chartColors,
               addMarkersToMap,
-              jQuery,
+              $,
               filterControl,
               markerListControl,
               mapControl,
@@ -52,22 +34,15 @@ require(['domReady!',
               initializeIconControls,
               initializeInfoWindow) {
 
-        var global = window;
-
         //Color selection for pie charts should be hidden by default
-        jQuery('#colorboard').fadeOut(0);
+        $('#colorboard').fadeOut(0);
 
-        jQuery('a#single_image').fancybox();
+        //Initialize profile pop up
+        $('a#single_image').fancybox();
 
         addMarkersToMap(barMarkers, map);
 
         addMarkersToMap(restaurantMarkers, map);
-
-
-        //Initialize gallery list maker
-        //global.initializeController2Functions(markerListControl);
-
-        //App UI options
 
         //Register UI controls with google Maps
         map.controls[google.maps.ControlPosition.RIGHT_TOP].push(markerListControl);
@@ -76,7 +51,7 @@ require(['domReady!',
 
         map.mapTypeAppState = 'colors';
 
-        jQuery('button2').click();
+        $('button2').click();
 
     });
 
