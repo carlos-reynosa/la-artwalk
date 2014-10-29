@@ -3,7 +3,7 @@
  */
 define(['jquery'],function ($) {
     return function () {
-        $(".filterButton").fadeOut(150, function () {
+        $('.filterButton').fadeOut(150, function () {
             $(this).remove();
         });
     };
