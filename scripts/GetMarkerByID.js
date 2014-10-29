@@ -1,16 +1,15 @@
 define(['BarMarkers', 'RestaurantMarkers', 'GalleryMarkers'], function (barMarkers, restaurantMarkers, galleryMarkers) {
-
     return function getMarkerByID(ID, markerType) {
-        if (markerType == "bar") {
+        if (markerType == 'bar') {
             for (var i = 0; i < barMarkers.length; i++) {
-                if ("bar-" + barMarkers[i].barID.toString() == ID) {
+                if ('bar-' + barMarkers[i].barID.toString() == ID) {
                     return barMarkers[i];
                 }
             }
         }
-        else if (markerType == "restaurant") {
+        else if (markerType == 'restaurant') {
             for (var i = 0; i < restaurantMarkers.length; i++) {
-                if ("restaurant-" + restaurantMarkers[i].restaurantID.toString() == ID) {
+                if ('restaurant-' + restaurantMarkers[i].restaurantID.toString() == ID) {
                     return restaurantMarkers[i];
                 }
             }
