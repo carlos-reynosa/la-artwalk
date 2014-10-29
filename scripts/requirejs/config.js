@@ -1,15 +1,15 @@
 require.config({
-    deps:['main'],
+    deps:['./main'],
     baseUrl:'scripts/',
     paths:{
 
-        'domReady':'/scripts/bower_components/domReady/domReady',
-        'main':'/scripts/main',
-        'jquery': '/scripts/bower_components/jquery/jquery',
-        'InfoBubble':'/scripts/infobubble',
-        'FancyBox':'/fancybox/jquery.fancybox-1.3.4',
-        'MultiSelect':'/scripts/jquery.multiselect',
-        'jquery-ui':'/scripts/bower_components/jquery-ui/jquery-ui'
+        'domReady':'bower_components/domReady/domReady',
+        'main':'main',
+        'jquery': 'bower_components/jquery/jquery',
+        'InfoBubble':'infobubble',
+        'FancyBox':'../fancybox/jquery.fancybox-1.3.4',
+        'MultiSelect':'jquery.multiselect',
+        'jquery-ui':'bower_components/jquery-ui/jquery-ui'
     },
     shim:{
         'jquery-ui':{
