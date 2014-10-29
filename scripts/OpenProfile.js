@@ -1,7 +1,5 @@
-define(['MarkerProfileHeightList', 'jquery'], function (markerProfileHeight) {
-
+define(['MarkerProfileHeightList', 'jquery'], function (markerProfileHeight,$) {
     return function (markerID) {
-        var tempThis;
         var profileHeight = markerProfileHeight[markerID];
         if (!profileHeight) {
             profileHeight = 200;
