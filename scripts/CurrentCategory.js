@@ -1,3 +1,6 @@
+/**
+ * Stores the currently selected category within the left hand filer control.
+ */
 define(function () {
     return  {
         value: null,
