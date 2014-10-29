@@ -15,6 +15,7 @@ with [I-Chun Lin (Irene)] (http://www.linkedin.com/pub/i-chun-lin/20/a92/55a). T
 a Master of Fine Arts in Graphic Design student at California State University, Fullerton. The application was a proof
 of concept implementation of Irene's final master project.
 
+
 ## Tech Used
 * jQuery
 * jQuery-UI
@@ -22,6 +23,7 @@ of concept implementation of Irene's final master project.
 * Google Charts REST API
 * Google Maps API
 
+- Application scripts found within **/scripts**
 #Application Objectives
 
 * Allow users to view a graphical representation of participating LA Artwalk galleries and characteristics of their art.
