@@ -1,6 +1,5 @@
 /**
  * Returns an array containing the map location of each gallery used within the application.
- * @returns {*[]}
  */
 define(
     function () {
