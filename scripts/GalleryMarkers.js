@@ -1,5 +1,5 @@
 /**
- * Returns a list of Google Maps gallery marker objects for use within the application.
+ * Builds a list of gallery markers and all their associated data for use within the application.
  */
 define(['GalleryMarkerData', 'MarkerOptions', 'BaseMarkerSize', 'AppMap', 'Google', 'GetResizedMarkerSize'],
     function (markerData, markerOptions, baseMarkerSize, map, google, getResizedMarkerSize) {
@@ -14,7 +14,8 @@ define(['GalleryMarkerData', 'MarkerOptions', 'BaseMarkerSize', 'AppMap', 'Googl
             gallery = markerData[i];
 
             resizedMarkerSize = getResizedMarkerSize(baseMarkerSize, gallery);
-            
+
+            //Define the selection area of the marker within the map
             shape = {
                 coord: [resizedMarkerSize.width, resizedMarkerSize.height / 2, (resizedMarkerSize.width / 2) + 10],
                 type: 'circle'
