@@ -1,7 +1,6 @@
-define(function () {
-
+define(['jquery'],function ($) {
     return function () {
-        $("select").multiselect("uncheckAll");
-    }
+        $('select').multiselect('uncheckAll');
+    };
 });
 
