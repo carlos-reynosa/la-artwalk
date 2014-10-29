@@ -1,3 +1,6 @@
+/**
+ * Defines colors used for creating the pie chart representation of gallery markers.
+ */
 define(function () {
     return {
         COLOR1: 'ffcc33',
