@@ -4,7 +4,7 @@ define(function getMapStyle() {
             featureType: 'all',
             stylers: [
                 {
-                    hue: "#8dbfd7"
+                    hue: '#8dbfd7'
                 },
                 {
                     saturation: -100
