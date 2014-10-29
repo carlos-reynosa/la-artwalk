@@ -1,5 +1,5 @@
 /**
- * Removes any buttons that represent art characteristic filters within the UI.
+ * Defines removes a filter from the set of filters within the left hand map control.
  */
 define(['jquery'],function ($) {
     return function () {
